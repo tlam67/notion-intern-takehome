@@ -1,0 +1,30 @@
+{
+  "name": "notion",
+  "version": "1.0.0",
+  "description": "A CLI mail app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest" 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "inquirer": "^10.1.8"
+  },
+  "bin": {
+    "mail": "./bin/cli.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.24.8",
+    "@babel/preset-env": "^7.25.4",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3"
+  }
+}
