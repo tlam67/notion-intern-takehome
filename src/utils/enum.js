@@ -38,5 +38,5 @@ export const DatabaseSchema = Object.freeze({
 
 export const UserMessages = Object.freeze({
   WELCOME: "Welcome to NotionMail!",
-  HELP: `Please select an option:\n- ${chalk.green("send")}: Send mail to a user.\n- ${chalk.green("read")}: Check a user's mail.\n- ${chalk.green("delete")}: delete mail for a user.\n- ${chalk.green("exit")}: exit program.`,
+  HELP: `Please select an option:\n- ${chalk.green("send")}: Send mail to a user.\n- ${chalk.green("read")}: Check a user's mail.\n- ${chalk.green("delete")}: delete mail for a user.\n- ${chalk.green("exit")}: exit program.\n- ${chalk.green("help")}: display help.`,
 });
