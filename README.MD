@@ -41,8 +41,8 @@ When starting out, I also referenced this repo for [Node.js CLI Apps Best Practi
 
 ## Clone the repository
 ```
-git clone github-link
-cd my-repo
+git clone git@github.com:tlam67/notion-intern-takehome.git
+cd notion-intern-takehome
 ```
 
 ## Install dependencies
