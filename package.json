@@ -1,10 +1,11 @@
 {
-  "name": "notion",
+  "name": "mail",
   "version": "1.0.0",
   "description": "A CLI mail app",
-  "main": "index.js",
+  "main": "./bin/cli.js",
   "scripts": {
-    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest" 
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest",
+    "start": "mail"
   },
   "author": "",
   "license": "ISC",
